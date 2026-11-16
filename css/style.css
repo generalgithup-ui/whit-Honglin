@@ -1,0 +1,13 @@
+.subject-btn { color: #cbd5e1; }
+.subject-btn:hover { color: #ffffff; background-color: rgba(255, 255, 255, 0.08); }
+.subject-btn.active {
+  background-color: #4f46e5;
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(79, 70, 229, 0.45);
+}
+
+.team-card { transition: transform 0.15s ease, box-shadow 0.15s ease; }
+.team-card:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(15, 23, 42, 0.06); }
+
+body.admin-unlocked .admin-only { display: inline-flex; }
+body.admin-unlocked #adminPanel.admin-only { display: block; }
